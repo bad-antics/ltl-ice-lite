@@ -1,0 +1,15 @@
+// ltl-ice-lite/main.ltl
+//
+// ICE-lite candidate generator for WebRTC peers.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-ice-lite v0.1.0")
+    io::println("ICE-lite candidate generator for WebRTC peers.")
+    0
+}
